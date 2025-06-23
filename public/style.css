@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+#adminLogin {
+  margin-bottom: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+.product img {
+  width: 100%;
+  cursor: pointer;
+}
+.admin-only {
+  display: none;
+}
+.editable {
+  border: 1px dashed #aaa;
+  padding: 4px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Admin Login Button -->
+  <button id="adminLogin">Admin Login</button>
+
+  <!-- Product Container -->
+  <div id="productContainer">
+    <!-- Product 1 -->
+    <div class="product" id="product-1">
+      <img id="image-1" src="data:image/png;base64," alt="Product 1" onclick="triggerFileInput(1)" />
+      <input type="file" id="file-input-1" style="display: none;" onchange="handleFileSelect(event, 1)" />
+      <h3 contenteditable="false" id="title-1">T-Shirt</h3>
+      <p contenteditable="false" id="price-1">$20</p>
+      <textarea id="desc-1" disabled>Comfortable cotton T-shirt</textarea>
+      <button class="saveBtn" id="save-1" style="display:none">Save</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product" id="product-2">
+      <img id="image-2" src="data:image/png;base64," alt="Product 2" onclick="triggerFileInput(2)" />
+      <input type="file" id="file-input-2" style="display: none;" onchange="handleFileSelect(event, 2)" />
+      <h3 contenteditable="false" id="title-2">Cap</h3>
+      <p contenteditable="false" id="price-2">$15</p>
+      <textarea id="desc-2" disabled>Stylish summer cap</textarea>
+      <button class="saveBtn" id="save-2" style="display:none">Save</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product" id="product-3">
+      <img id="image-3" src="data:image/png;base64," alt="Product 3" onclick="triggerFileInput(3)" />
+      <input type="file" id="file-input-3" style="display: none;" onchange="handleFileSelect(event, 3)" />
+      <h3 contenteditable="false" id="title-3">Sneakers</h3>
+      <p contenteditable="false" id="price-3">$50</p>
+      <textarea id="desc-3" disabled>Durable running sneakers</textarea>
+      <button class="saveBtn" id="save-3" style="display:none">Save</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
