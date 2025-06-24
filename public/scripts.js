@@ -1,8 +1,8 @@
 let isAdmin = false;
 let products = [
-  { id: 1, title: 'T-Shirt', price: '$20', description: 'Comfortable cotton T-shirt', image: 'data:image/png;base64,' },
-  { id: 2, title: 'Cap', price: '$15', description: 'Stylish summer cap', image: 'data:image/png;base64,' },
-  { id: 3, title: 'Sneakers', price: '$50', description: 'Durable running sneakers', image: 'data:image/png;base64,' },
+  { id: 1, title: 'T-Shirt', price: '$20', description: 'Comfortable cotton T-shirt', image: 'images/tshirt1.png' },
+  { id: 2, title: 'Cap', price: '$15', description: 'Stylish summer cap', image: 'images/cap1.png' },
+  { id: 3, title: 'Sneakers', price: '$50', description: 'Durable running sneakers', image: 'images/sneakers1.png' },
 ];
 
 // Load products from localStorage if available
